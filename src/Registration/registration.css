@@ -1,0 +1,47 @@
+.sign-page {
+    display: flex;
+    gap: 250px;
+
+    padding-top: 90px;
+    width: min(90%, 1440px);
+    margin-inline: auto;
+    align-items: center;
+    box-shadow: 0 0 0 100vh #faf2ef;
+    clip-path: inset(0 -100vh);
+}
+
+.sign-up-details {
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.detail {
+    display: flex;
+    font-size: 0.8rem;
+    align-items: flex-start;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-up-submit {
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    color: #faf2ef;
+    background: #f25019;
+}
+
+@media (900px<=width<1060px) {
+    .sign-page {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+}
